@@ -4,6 +4,6 @@ The JSONs represent 3 time-steps of spatially subsetted (300x300px) Sentinel-2 i
 
 There are 3 groups of data in this dataset corresponding to the 3 strategies (2A, 2B and 3):
 
-udf_raw_*.json: These files are for strategy 2B and are to be POSTed to the endpoint /udf/raw
-udf_binary_*.json: These files are for strategy 3 and are to be POSTed to the endpoint /udf/binary
-udf_*.json (all other files except those mentioned above): These files are for strategy 2A and are to be POSTed to the endpoint /udf
+* udf_raw_*.json: These files are for strategy 2B and are to be POSTed to the endpoint /udf/raw
+* udf_binary_*.json: These files are for strategy 3 and are to be POSTed to the endpoint /udf/binary
+* udf_*.json (all other files except those mentioned above): These files are for strategy 2A and are to be POSTed to the endpoint /udf
